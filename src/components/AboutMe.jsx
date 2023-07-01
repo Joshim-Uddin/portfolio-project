@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="bg-black text-indigo-400 p-8">
+    <div className="bg-black p-8 container">
       <h3 className="text-4xl font-semibold text-center mb-8">About Me</h3>
       <p className="text-justify px-8">
         I&apos;m a talented fresher web developer specializing in frontend
@@ -12,7 +12,7 @@ const AboutMe = () => {
         and responsive web applications. Additionally, his expertise in Firebase
         authentication adds an extra layer of security to his projects.
       </p>
-      <div>
+      <div className="text-black">
         <div className="overflow-x-auto p-8 text-xl">
           <table className="table table-zebra w-full">
             <tbody>

@@ -5,7 +5,7 @@ import chefs from "./../assets/chefs.png";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="container">
       <h2 className="text-4xl text-center my-8 font-semibold">My Projects</h2>
       <div className="my-8 grid lg:grid-cols-3 gap-4 grid-cols-1">
         <div>

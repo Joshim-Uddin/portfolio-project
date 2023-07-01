@@ -7,7 +7,7 @@ import ResumeButton from "./ResumeButton";
 
 const Banner = () => {
   return (
-    <div className="flex lg:flex-row flex-col-reverse items-center gap-8 mb-10 bg-indigo-300 text-[#0F0601] py-8 lg:pb-0">
+    <div className="flex lg:flex-row flex-col-reverse container items-center gap-8 mb-10 bg-indigo-300 text-[#0F0601] py-8 lg:pb-0">
       <div className="lg:ps-10 ps-2">
         
         <h4 className="text-3xl font-bold mb-4"><Typewriter options={{
