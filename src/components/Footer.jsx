@@ -5,7 +5,7 @@ import insta from "./../assets/icons/insta.png";
 
 const Footer = () => {
   return (
-    <footer className="flex lg:flex-row flex-col justify-around gap-8 bg-black text-indigo-400 px-8 mt-4 py-8">
+    <footer className="flex lg:flex-row flex-col justify-around gap-8 bg-purple-700 text-white px-8 mt-4 py-8">
       <div className="w-1/2">
         <h2 className="text-orange-600 font-bold text-3xl underline">
           Lets Connect

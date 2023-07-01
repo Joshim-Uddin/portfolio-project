@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex lg:flex-row flex-col lg:justify-between items-center bg-black text-white lg:px-10 py-5">
+    <nav className="flex lg:flex-row flex-col lg:justify-between items-center text-white lg:px-10 py-5">
       <div className="logo">
-        <Link to='/'><h3 className="uppercase font-bold text-4xl cursor-pointer">
+        <img src="" alt="" />
+        <Link to='/'><h3 className="uppercase font-Oleo-Script font-bold text-4xl cursor-pointer">
           J<span className="text-orange-600">oshi</span>m
         </h3></Link>
       </div>

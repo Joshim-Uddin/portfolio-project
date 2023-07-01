@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'Oleo-Script':['"Oleo Script"', 'cursive']
+    },
   },
   plugins: [require('daisyui')],
 }

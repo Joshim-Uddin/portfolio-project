@@ -7,7 +7,7 @@ import ResumeButton from "./ResumeButton";
 
 const Banner = () => {
   return (
-    <div className="flex lg:flex-row flex-col-reverse container items-center gap-8 mb-10 bg-indigo-300 text-[#0F0601] py-8 lg:pb-0">
+    <div className="flex lg:flex-row flex-col-reverse container items-center gap-8 mb-10 z-10 text-[#0F0601] py-8 lg:pb-0">
       <div className="lg:ps-10 ps-2">
         
         <h4 className="text-3xl font-bold mb-4"><Typewriter options={{
@@ -38,8 +38,8 @@ const Banner = () => {
           <ResumeButton />
         </div>
       </div>
-      <div className="image w-full flex items-center justify-end">
-        <img src={image} alt="" className="h-full" />
+      <div className="image md:ms-48 w-full flex items-center justify-end">
+        <img src={image} alt="" className="h-full z-20 p-5 md:pr-10 bg-gradient-to-tr from-purple-200 via-blue-400 to-purple-500 md:rounded-tl-[270px] md:rounded-br-[200px] rounded-tl-[60px] rounded-br-[70px]" />
       </div>
     </div>
   );
