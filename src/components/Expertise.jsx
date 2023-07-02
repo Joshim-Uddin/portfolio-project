@@ -16,7 +16,7 @@ const Expertise = () => {
         experienced in utilizing Firebase for authentication purposes.
       </p>
       <div className="grid lg:grid-cols-4 grid-cols-1 mt-8 gap-5">
-        <div className="card bg-stone-400 shadow-xl flex items-start">
+        <div className="card shadow-xl flex items-start">
           <figure>
             <img src={js} alt="JavaScript" className="ps-5 pt-5" />
           </figure>
@@ -29,7 +29,7 @@ const Expertise = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-stone-400 shadow-xl flex items-start">
+        <div className="card shadow-xl flex items-start">
           <figure>
             <img src={react} alt="React" className="ps-5 pt-5" />
           </figure>
@@ -42,7 +42,7 @@ const Expertise = () => {
             </p>
           </div>
         </div>
-        <div className="card  bg-stone-400 shadow-xl flex items-start">
+        <div className="card shadow-xl flex items-start">
           <figure>
             <img src={node} alt="Node js" className="ps-5 pt-5" />
           </figure>
@@ -56,7 +56,7 @@ const Expertise = () => {
             </p>
           </div>
         </div>
-        <div className="card  bg-stone-400 shadow-xl flex items-start">
+        <div className="card shadow-xl flex items-start">
           <figure>
             <img src={mdb} alt="MongoDB" className="ps-5 pt-5" />
           </figure>

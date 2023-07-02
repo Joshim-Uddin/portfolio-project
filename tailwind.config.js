@@ -5,9 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      'Oleo-Script':['"Oleo Script"', 'cursive']
-    },
+    extend: {},
+    fontFamily:{
+      'pacifico':['"Pacifico"', 'cursive'],
+      'style-script':['"Style Script"', 'cursive']
+    }
   },
   plugins: [require('daisyui')],
 }
