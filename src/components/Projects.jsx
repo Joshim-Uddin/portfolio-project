@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="container">
       <h2 className="text-4xl text-center my-8 font-semibold">My Projects</h2>
       <div className="my-8 grid lg:grid-cols-3 gap-4 grid-cols-1">
-        <div>
+        <div className="px-2">
           <a href="https://toys-house-de90b.web.app">
             <img src={toys} alt="" />
           </a>
@@ -26,7 +26,7 @@ const Projects = () => {
             </ul>
           </p>
         </div>
-        <div>
+        <div className="px-2">
           <a href="https://careermatch.netlify.app">
             <img src={career} alt="" />
           </a>
@@ -42,7 +42,7 @@ const Projects = () => {
             </ul>
           </p>
         </div>
-        <div>
+        <div className="px-2">
           <a href="https://great-bd-chef-recipes.web.app">
             <img src={chefs} alt="" />
           </a>

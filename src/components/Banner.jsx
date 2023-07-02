@@ -9,22 +9,16 @@ const Banner = () => {
   return (
     <div className="flex lg:flex-row flex-col-reverse container items-center gap-8 mb-10 z-10 py-8 lg:pb-0">
       <div className="lg:ps-10 ps-2">
-        
-        <h4 className="text-3xl font-bold mb-4"><Typewriter options={{
-    strings: ["Hello I'm"],
+      <h4 className="md:text-4xl text-3xl font-semibold">
+          Hi I&apos;m
+  
+ </h4>
+        <h2 className="md:text-6xl text-4xl font-bold mb-4"><Typewriter options={{
+    strings: ["Md. Joshim Uddin", "A Front End Developer", "Exprerienced in MERN"],
     autoStart: true,
     loop: true,
-  }}></Typewriter></h4>
-        <h2 className="text-6xl font-semibold">
-          <MovingText
-  type="effect3D"
-  delay="0s"
-  direction="normal"
-  timing="ease"
-  iteration="infinite"
-  fillMode="white">
-  Md. Joshim Uddin
-</MovingText> </h2>
+  }}></Typewriter></h2>
+        
         <p className="text-justify my-6">
           Highly committed and enthusiastic fresher web developer with a strong
           foundation in HTML, CSS, JavaScript, and modern frontend frameworks
@@ -38,7 +32,7 @@ const Banner = () => {
           <ResumeButton />
         </div>
       </div>
-      <div className="image md:ms-48 w-full flex items-center justify-end">
+      <div className="image w-4/6 flex items-center justify-end">
         <img src={image} alt="" className="h-full z-20 p-5 md:pr-10 bg-gradient-to-tr from-purple-200 via-blue-400 to-purple-500 md:rounded-tl-[270px] md:rounded-br-[200px] rounded-tl-[60px] rounded-br-[70px]" />
       </div>
     </div>

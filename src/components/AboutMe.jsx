@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="p-8 container">
+    <div className="md:p-8 p-2 container">
       <h3 className="text-4xl font-semibold text-center mb-8">About Me</h3>
-      <p className="text-justify px-8">
+      <p className="text-justify md:px-8 px-2">
         I&apos;m a talented fresher web developer specializing in frontend
         technologies such as HTML, CSS, Tailwind, Bootstrap, JavaScript, and
         React. With a strong foundation in backend development using Node.js,

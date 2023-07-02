@@ -5,9 +5,10 @@ import Footer from '../components/Footer';
 import BG from '../BG';
 
 const Main = () => {
-    const [dark, setDark] = useState(false);
+    const [dark, setDark] = useState();
     const modeSwitch=(status)=>{
        setDark(status);
+       console.log(status);
     }
     return (
         <div className={dark?'relative z-10 text-white':'relative z-10 bg-white text-black'}>
