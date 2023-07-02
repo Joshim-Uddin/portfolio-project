@@ -22,9 +22,10 @@ import netlify from './../assets/icons/netlify.png'
 
 const Expertise = () => {
   return (
-    <div className="lg:px-10 px-2 container">
-      <h2 className="text-4xl font-bold text-center my-8">My Expertises</h2>
-      <p className="text-xl lg:w-10/12 mx-auto text-justify">
+    <div  className="lg:px-10 px-2 container">
+      <h2 className="text-4xl font-bold text-center mt-8 mb-5">My Expertises</h2>
+      <hr className="border-2 border-blue-600 w-3/12 mx-auto" data-aos="fade-right"/>
+      <p className="text-xl lg:w-10/12 mt-3 mx-auto text-justify">
         I am Md. Joshim Uddin, a fresher web developer with expertise in HTML,
         CSS, Tailwind CSS, Bootstrap, JavaScript, React for frontend
         development. I also have skills in Node.js, Express.js for backend

@@ -15,14 +15,21 @@ const Navbar = ({modeSwitch}) => {
         </h3></Link>
       </div>
       <ul className="flex lg:gap-5">
+        <Link to='#projects'>
         <li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
-          Portfolio
+          Projects
         </li>
-        <li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
-          Blogs
+        </Link>
+       <Link to='#expertise'>
+       <li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
+          Expertise
         </li>
-        <Link to='/aboutme'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
+       </Link>
+        <Link to='#aboutme'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
           About Me
+        </li></Link>
+        <Link to='#contact'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
+          Contact
         </li></Link>
       </ul>
     </nav>
@@ -41,11 +48,21 @@ const Navbar = ({modeSwitch}) => {
         <li className="text-lg px-3 cursor-pointer uppercase">
           Portfolio
         </li>
+        <Link to='#projects'>
         <li className="text-lg px-3 cursor-pointer uppercase">
-          Blogs
+          Projects
         </li>
-        <Link to='/aboutme'><li className="text-lg px-3 cursor-pointer uppercase">
+        </Link>
+       <Link to='#expertise'>
+       <li className="text-lg px-3 cursor-pointer uppercase">
+          Expertise
+        </li>
+       </Link>
+        <Link to='#aboutme'><li className="text-lg px-3 cursor-pointer uppercase">
           About Me
+        </li></Link>
+        <Link to='#contact'><li className="text-lg px-3 cursor-pointer uppercase">
+          Contact
         </li></Link>
       </ul>
     </nav>

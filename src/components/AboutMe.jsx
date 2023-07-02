@@ -3,14 +3,11 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="md:p-8 p-2 container">
-      <h3 className="text-4xl font-semibold text-center mb-8">About Me</h3>
-      <p className="text-justify md:px-8 px-2">
-        I&apos;m a talented fresher web developer specializing in frontend
-        technologies such as HTML, CSS, Tailwind, Bootstrap, JavaScript, and
-        React. With a strong foundation in backend development using Node.js,
-        Express.js, and MongoDB, Joshim possesses the skills to build dynamic
-        and responsive web applications. Additionally, his expertise in Firebase
-        authentication adds an extra layer of security to his projects.
+      <h3 className="text-4xl font-semibold text-center mb-5">About Me</h3>
+      <hr className="border-2 border-blue-600 w-3/12 mx-auto" data-aos="fade-left"/>
+      <p className="text-justify md:px-8 mt-3 px-2">
+        I&apos;m a passionate fresher web developer specializing in frontend
+        technologies. I have been exploring web technologies for 2 years. I have completed the &apos;complete web development course&apos; from programing hero. It took six months to finish the course. During the course, I went through several topics on JavaScript in depth. I learnt react, created some projects with react. I worked with Node, express, and MongoDB. I want to expand my adaptability to updated web technologies and libraries.
       </p>
       <div className="text-black">
         <div className="overflow-x-auto p-8 text-xl">
@@ -24,7 +21,7 @@ const AboutMe = () => {
               {/* row 2 */}
               <tr>
                 <td>Email: </td>
-                <td>joshimuddin.kushtia.bd@gmail.com</td>
+                <td>joshimuddin1831@gmail.com</td>
               </tr>
               <tr>
                 <td>Address: </td>
@@ -33,14 +30,13 @@ const AboutMe = () => {
               <tr>
                 <td>Skills: </td>
                 <td>
-                  MERN Stack Web Developer, Web Developer, React Developer
+                  HTML, CSS, JavaScript, React, Bootstrap, Tailwind, Node js, Express js, MongoDB, Firebase, JWT
                 </td>
               </tr>
               <tr>
-                <td>Expertise: </td>
+                <td>Specialization: </td>
                 <td>
-                  React, JavaScript (comfortable), Node js, Express js, MongoDB,
-                  Firebase
+                  Front End Development
                 </td>
               </tr>
             </tbody>

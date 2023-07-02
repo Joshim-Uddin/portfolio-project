@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <div className="">
         <h2 className="text-orange-600 font-bold text-3xl underline">
-          Let&apos;s Message me
+          Message me
         </h2>
         <form className="flex flex-col items-center gap-4 mt-8">
           <input type="text" placeholder="Your Name" />
