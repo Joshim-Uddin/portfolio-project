@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import { Outlet } from 'react-router-dom';
-import Footer from '../components/Footer';
 import BG from '../BG';
+import Contact from '../components/Contact';
 
 const Main = () => {
     const [dark, setDark] = useState();
@@ -15,7 +15,7 @@ const Main = () => {
             {dark&&<BG />}
             <Navbar modeSwitch={modeSwitch} />
             <Outlet />
-            <Footer />
+            <Contact />
         </div>
     );
 };
