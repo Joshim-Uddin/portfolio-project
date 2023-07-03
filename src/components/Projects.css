@@ -1,0 +1,27 @@
+.toys{
+    background-image: url('./../assets/toys-house.png');
+    transition: ease-in-out 10s;
+    background-position: top;
+    background-size: cover;
+  }
+.toys:hover{
+    background-position: bottom;
+  }
+.camp{
+    background-image: url('./../assets/camp.png');
+    transition: ease-in-out 10s;
+    background-position: top;
+    background-size: cover;
+  }
+.camp:hover{
+    background-position: bottom;
+  }
+.chefs{
+    background-image: url('./../assets/chefs.png');
+    transition: ease-in-out 10s;
+    background-position: top;
+    background-size: cover;
+  }
+.chefs:hover{
+    background-position: bottom;
+  }

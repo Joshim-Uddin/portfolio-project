@@ -19,10 +19,13 @@ const Contact = () => {
       });
   };
   return (
-    <div className="flex lg:flex-row flex-col justify-around gap-8 bg-purple-700 text-white px-8 mt-4 py-8">
+    <div id="contact" className="container h-screen border-b-8 border-amber-400" data-aos="fade-left">
+      <h2 className="text-4xl font-semibold text-center mb-3">Contact</h2>
+      <hr className="border-2 border-blue-600 w-1/12 mx-auto" data-aos="fade-right"/>
+      <div className="flex lg:flex-row flex-col justify-around gap-8 px-8 mt-4 py-8">
       <div className="w-1/2">
         <h2 className="text-orange-600 font-bold text-3xl underline">
-          Lets Connect
+          Let&apos;s Connect
         </h2>
         <p className="mt-8">
           Please fill out the form on this section to contact with me or call
@@ -56,10 +59,11 @@ const Contact = () => {
             className="resize-none"
           ></textarea>
           <button type="submit" className="btn btn-custom">
-            Submit
+            Send
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

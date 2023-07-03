@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {FaBars} from 'react-icons/fa'
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = ({modeSwitch}) => {
   const [dark, setDark] = useState(true)
@@ -9,34 +10,32 @@ const Navbar = ({modeSwitch}) => {
    <div className="relative"> 
    <nav className="max-[600px]:hidden flex flex-row lg:justify-between items-center lg:px-10 py-5 container col-span-3">
       <div className="logo">
-        <img src="" alt="" />
         <Link to='/'><h3 className="font-style-script font-bold text-5xl cursor-pointer">
           J<span className="text-orange-600">oshi</span>m
         </h3></Link>
       </div>
       <ul className="flex lg:gap-5">
-        <Link to='#projects'>
+        <HashLink to='#projects'>
         <li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
           Projects
         </li>
-        </Link>
-       <Link to='#expertise'>
+        </HashLink>
+       <HashLink to='#expertise'>
        <li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
           Expertise
         </li>
-       </Link>
-        <Link to='#aboutme'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
+       </HashLink>
+        <HashLink to='#aboutme'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
           About Me
-        </li></Link>
-        <Link to='#contact'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
+        </li></HashLink>
+        <HashLink to='#contact'><li className="text-lg  hover:scale-110 px-3 py-2 cursor-pointer uppercase">
           Contact
-        </li></Link>
+        </li></HashLink>
       </ul>
     </nav>
    <nav className="px-10 py-5 min-[600px]:hidden relative">
       <div className="flex justify-between items-center">
       <div className="logo">
-        <img src="" alt="" />
         <Link to='/'><h3 className="font-style-script font-bold text-5xl cursor-pointer">
           J<span className="text-orange-600">oshi</span>m
         </h3></Link>
@@ -45,25 +44,22 @@ const Navbar = ({modeSwitch}) => {
       </div>
       
       <ul className={clicked?"flex flex-col gap-5":"flex flex-col gap-5 absolute -mt-96"}>
-        <li className="text-lg px-3 cursor-pointer uppercase">
-          Portfolio
-        </li>
-        <Link to='#projects'>
+        <HashLink to='#projects'>
         <li className="text-lg px-3 cursor-pointer uppercase">
           Projects
         </li>
-        </Link>
-       <Link to='#expertise'>
+        </HashLink>
+       <HashLink to='#expertise'>
        <li className="text-lg px-3 cursor-pointer uppercase">
           Expertise
         </li>
-       </Link>
-        <Link to='#aboutme'><li className="text-lg px-3 cursor-pointer uppercase">
+       </HashLink>
+        <HashLink to='#aboutme'><li className="text-lg px-3 cursor-pointer uppercase">
           About Me
-        </li></Link>
-        <Link to='#contact'><li className="text-lg px-3 cursor-pointer uppercase">
+        </li></HashLink>
+        <HashLink to='#contact'><li className="text-lg px-3 cursor-pointer uppercase">
           Contact
-        </li></Link>
+        </li></HashLink>
       </ul>
     </nav>
     <label className="swap swap-rotate absolute top-[34px] right-3 md:right-10">

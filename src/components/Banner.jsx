@@ -4,6 +4,7 @@ import MovingText from 'react-moving-text'
 import image from "./../assets/Untitled-2.png";
 import "./Banner.css";
 import ResumeButton from "./ResumeButton";
+import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
   return (
@@ -26,9 +27,11 @@ const Banner = () => {
         </p>
         <div className="flex gap-5">
           {" "}
+          <HashLink to='#contact'>
           <button className="btn btn-custom">
-            <a href="">Contact Me</a>
+            Contact Me
           </button>
+          </HashLink>
           <ResumeButton />
         </div>
       </div>
