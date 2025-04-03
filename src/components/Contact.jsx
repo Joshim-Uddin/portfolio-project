@@ -19,7 +19,7 @@ const Contact = () => {
       });
   };
   return (
-    <div id="contact" className="container h-screen border-b-8 border-amber-400" data-aos="fade-left">
+    <div id="contact" className="container h-screen border-b-8 border-amber-400 mt-20 bg-[rgba(0,0,0,0.3)] pt-10" data-aos="fade-left">
       <h2 className="text-4xl font-semibold text-center mb-3">Contact</h2>
       <hr className="border-2 border-blue-600 w-1/12 mx-auto" data-aos="fade-right"/>
       <div className="flex lg:flex-row flex-col justify-around gap-8 px-8 mt-4 py-8">

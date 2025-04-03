@@ -20,7 +20,7 @@ const Projects = () => {
     return () => window.removeEventListener("scroll", onScroll);
   },[scrollTop])
   return (
-    <div id="projects" className="md:h-screen mt-5 container border-b-8 border-amber-400 mb-5" data-aos="fade-in">
+    <div id="projects" className="h-screen mt-5 container mb-20 pb-10" data-aos="fade-in">
       <h2 className="text-4xl text-center mt-8 mb-5 font-semibold">My Projects</h2>
       <hr className="border-2 border-blue-600 w-2/12 mx-auto" data-aos="fade-left"/>
       <div className="my-8 grid lg:grid-cols-3 gap-4 grid-cols-1">
