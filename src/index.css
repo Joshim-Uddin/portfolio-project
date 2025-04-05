@@ -12,7 +12,7 @@
   @apply max-w-screen-2xl lg:w-11/12 mx-auto
 }
 .btn-custom{
-  @apply bg-orange-600 px-3 py-2 text-white
+  @apply bg-orange-600 px-5 py-2 text-white
 }
 input, textarea{
   @apply p-2 border border-orange-600 w-full

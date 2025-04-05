@@ -21,7 +21,7 @@ const Projects = () => {
   },[scrollTop])
   return (
     <div id="projects" className="h-screen mt-5 container mb-20 pb-10" data-aos="fade-in">
-      <h2 className="text-4xl text-center mt-8 mb-5 font-semibold">My Projects</h2>
+      <h2 className="text-4xl text-center mt-8 mb-5 font-semibold">Projects</h2>
       <hr className="border-2 border-blue-600 w-2/12 mx-auto" data-aos="fade-left"/>
       <div className="my-8 grid lg:grid-cols-3 gap-4 grid-cols-1">
         <div className="px-2">

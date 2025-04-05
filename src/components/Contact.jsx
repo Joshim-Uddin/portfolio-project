@@ -19,7 +19,7 @@ const Contact = () => {
       });
   };
   return (
-    <div id="contact" className="container h-screen border-b-8 border-amber-400 mt-20 bg-[rgba(0,0,0,0.3)] pt-10" data-aos="fade-left">
+    <div id="contact" className="container h-screen mt-20 bg-[rgba(96,96,96,0.3)] pt-10" data-aos="fade-left">
       <h2 className="text-4xl font-semibold text-center mb-3">Contact</h2>
       <hr className="border-2 border-blue-600 w-1/12 mx-auto" data-aos="fade-right"/>
       <div className="flex lg:flex-row flex-col justify-around gap-8 px-8 mt-4 py-8">
@@ -27,8 +27,8 @@ const Contact = () => {
         <h2 className="text-orange-600 font-bold text-3xl underline">
           Let&apos;s Connect
         </h2>
-        <p className="mt-8">
-          Please fill out the form on this section to contact with me or call
+        <p className="mt-8 text-base sm:text-lg">
+          Please fill out the form on this section to contact with me or call at +8801712113334
           between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.
         </p>
         <div className="flex gap-5 mt-8">
