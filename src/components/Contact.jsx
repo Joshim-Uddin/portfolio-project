@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
-import fb from "./../assets/icons/facebook.png";
-import twt from "./../assets/icons/twitter.png";
-import insta from "./../assets/icons/insta.png";
+import { FaFacebook,FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -30,16 +29,22 @@ const Contact = () => {
         <p className="mt-8 text-base sm:text-lg">
           Please fill out the form on this section to contact with me or call at +8801712113334
           between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.
+          <br />Email: joshimuddin1831@gmail.com
+          <br />
+          Address: Masterpara, Daulatpur-7050, Kushtia, Bangladesh
         </p>
         <div className="flex gap-5 mt-8">
-          <a href="https://www.facebook.com/joshim3334">
-            <img src={fb} alt="Facebook icon" />
+        <a href="https://www.linkedin.com/in/md-joshim-uddin-kushtia/" target="blank">
+            <FaLinkedin className="text-orange-600 text-xl hover:text-blue-600"/>
           </a>
-          <a href="https://twitter.com/Joshimu744288">
-            <img src={twt} alt="Twitter icon" />
+          <a href="https://www.facebook.com/joshim3334" target="blank">
+            <FaFacebook className="text-orange-600 text-xl hover:text-blue-600"/>
           </a>
-          <a href="#">
-            <img src={insta} alt="Instagram Icon" />
+          <a href="https://twitter.com/Joshimu744288" target="blank">
+            <FaTwitter className="text-orange-600 text-xl hover:text-blue-600"/>
+          </a>
+          <a href="#" target="blank">
+            <FaInstagram className="text-orange-600 text-xl hover:text-blue-600"/>
           </a>
         </div>
       </div>

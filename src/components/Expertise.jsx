@@ -28,7 +28,7 @@ const Expertise = () => {
         development, and <span className="font-bold uppercase">MongoDB</span> for database management. Additionally, I am
         experienced in utilizing <span className="font-bold uppercase">Firebase</span> for authentication purposes. I use <span className="font-bold uppercase">Json Web Token (JWT)</span> for safe user login and data transfering. I also use <span className="font-bold uppercase">AxiosSecure</span> and <span className="font-bold uppercase">ReactQuery</span> for fetching data smoothly. I regularly use <span className="font-bold uppercase">netlify, vercel, git</span> and <span className="font-bold uppercase">github</span> as my supporting tools.
       </p>
-      <div className="grid md:grid-cols-6 grid-cols-2 gap-6 md:my-8 md:px-8 my-5">
+      <div className="grid md:grid-cols-5 grid-cols-2 gap-6 md:my-8 md:px-8 my-5">
       <Tilt className="rounded-lg bg-gradient-to-t from-purple-600 via-purple-400 to-purple-200 p-5 shadow-lg shadow-[#FF9100]">
         <div>
           <img src={html} alt="html icon" />
