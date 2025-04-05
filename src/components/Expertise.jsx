@@ -1,8 +1,4 @@
 import React from "react";
-import js from "./../assets/icons/js.png";
-import react from "./../assets/icons/react.png";
-import node from "./../assets/icons/nodejs.png";
-import mdb from "./../assets/icons/mongo.png";
 import Tilt from 'react-parallax-tilt';
 import html from './../assets/icons/html.png'
 import css from './../assets/icons/css.png'
@@ -22,15 +18,15 @@ import netlify from './../assets/icons/netlify.png'
 
 const Expertise = () => {
   return (
-    <div id="expertise"  className="my-5 pb-5 lg:px-10 px-2 container" data-aos="fade-out">
+    <div id="expertise"  className="my-5 pb-5 container" data-aos="fade-out">
       <h2 className="text-4xl font-bold text-center mt-8 mb-5">My Expertises</h2>
       <hr className="border-2 border-blue-600 w-3/12 mx-auto" data-aos="fade-right"/>
-      <p className="text-xl lg:w-10/12 mt-3 mx-auto text-justify">
-        I am Md. Joshim Uddin, a fresher web developer with expertise in HTML,
-        CSS, Tailwind CSS, Bootstrap, JavaScript, React for frontend
-        development. I also have skills in Node.js, Express.js for backend
-        development, and MongoDB for database management. Additionally, I am
-        experienced in utilizing Firebase for authentication purposes. I regularly use netlify, vercel, gitbas and github as my supporting tools.
+      <p className="text-base sm:text-lg mt-3 mx-auto text-justify">
+        I am Md. Joshim Uddin, a web developer with expertise in <span className="font-bold uppercase">HTML,
+        CSS, Tailwind CSS, Bootstrap, JavaScript, React</span> for frontend
+        development. I also have skills in <span className="font-bold uppercase">Node.js, Express.js</span> for backend
+        development, and <span className="font-bold uppercase">MongoDB</span> for database management. Additionally, I am
+        experienced in utilizing <span className="font-bold uppercase">Firebase</span> for authentication purposes. I use <span className="font-bold uppercase">Json Web Token (JWT)</span> for safe user login and data transfering. I also use <span className="font-bold uppercase">AxiosSecure</span> and <span className="font-bold uppercase">ReactQuery</span> for fetching data smoothly. I regularly use <span className="font-bold uppercase">netlify, vercel, git</span> and <span className="font-bold uppercase">github</span> as my supporting tools.
       </p>
       <div className="grid md:grid-cols-6 grid-cols-2 gap-6 md:my-8 md:px-8 my-5">
       <Tilt className="rounded-lg bg-gradient-to-t from-purple-600 via-purple-400 to-purple-200 p-5 shadow-lg shadow-[#FF9100]">
