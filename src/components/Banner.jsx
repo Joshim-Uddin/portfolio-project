@@ -1,10 +1,9 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
-import MovingText from 'react-moving-text'
-import image from "./../assets/my-image.png";
 import "./Banner.css";
 import ResumeButton from "./ResumeButton";
 import { HashLink } from "react-router-hash-link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Banner = () => {
   return (
@@ -36,7 +35,8 @@ const Banner = () => {
         </div>
       </div>
       <div className="image w-4/6 flex items-center justify-end">
-        <img src={image} alt="" className="h-full z-20 p-5 md:pr-10" />
+      <LazyLoadImage src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1746710690/my-image_aef9ul.png" alt="profile image" className="h-full z-20 p-5 md:pr-10"/>
+        {/* <img src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1746710690/my-image_aef9ul.png" alt=""  /> */}
       </div>
     </div>
   );
