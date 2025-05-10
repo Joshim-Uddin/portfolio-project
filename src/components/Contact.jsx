@@ -2,20 +2,29 @@ import React, { useRef } from "react";
 import { FaFacebook,FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset()
+  
 
-    emailjs.sendForm('service_6zmn7or', 'template_l88cpmg', form.current, 'N-WXnQCmAF7r3XgTZ')
+    emailjs.sendForm('service_mrgxj5k', 'template_x0l8ybq', form.current, 'N-WXnQCmAF7r3XgTZ')
       .then((result) => {
-          console.log(result.text);
+        {result.text=="OK"?
+          Swal.fire({
+          icon: "success",
+          title: "Your Message has been Sent!",
+          showConfirmButton: false,
+          timer: 1500
+        }):""}
+          // console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+     e.target.reset()
   };
   return (
     <div id="contact" className="container h-screen mt-20 bg-[rgba(96,96,96,0.3)] pt-10" data-aos="fade-left">
@@ -53,19 +62,17 @@ const Contact = () => {
           Message me
         </h2>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center gap-4 mt-8">
-          <input type="text" name="from_name" placeholder="Your Name" />
-          <input type="email" name="from_email" placeholder="Your Email" />
+          <input type="text" name="user_name" placeholder="Your Name" />
+          <input type="email" name="user_email" placeholder="Your Email" />
           <textarea
-            name="message"
+            name="user_message"
             id=""
             cols="40"
             rows="6"
             placeholder="message"
             className="resize-none"
           ></textarea>
-          <button type="submit" className="btn btn-custom">
-            Send
-          </button>
+          <input type="submit" value="Send" className="btn btn-custom"/>
         </form>
       </div>
     </div>
