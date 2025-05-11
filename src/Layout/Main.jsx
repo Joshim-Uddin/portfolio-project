@@ -10,6 +10,7 @@ const Main = () => {
     const modeSwitch=(status)=>{
        setDark(status);
     }
+    console.log(dark)
     return (
         <div className={dark?'relative z-10 text-white':'relative z-10 bg-white text-black'}>
             {dark&&<BG />}
@@ -48,11 +49,13 @@ const Main = () => {
     outerAlpha={0}
     hasBlendMode={true}
     innerStyle={dark?{
-      backgroundColor: '#888'
+      backgroundColor: '#fff'
     }:{
         backgroundColor: '#333'
       }}
-    outerStyle={{
+    outerStyle={dark?{
+      border: '3px solid #fff'
+    }:{
       border: '3px solid #333'
     }}>
             
